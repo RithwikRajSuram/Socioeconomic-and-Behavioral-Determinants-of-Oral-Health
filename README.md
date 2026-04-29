@@ -14,9 +14,9 @@ Dataset: NHANES 2013–2018
 Sample Size: ~25,000 U.S. adults (≥18 years)
 Three survey cycles merged using participant identifier (SEQN)
 Sampling weights applied according to NCHS analytic guidelines
-# Official source: CDC National Center for Health Statistics
+Official source: CDC National Center for Health Statistics
 
-# Methodology
+* Methodology *
 Data Preparation :
 Harmonized variables across three NHANES cycles
 Recoded categorical variables for consistency
@@ -31,7 +31,7 @@ Multivariable logistic regression (untreated caries)
 Multivariable linear regression (missing teeth)
 Adjusted for: Age, sex, Race/ethnicity, Dental insurance
 
-#Key Findings
+* Key Findings *
 Descriptive Results :
 Untreated caries prevalence:
 34% among low-income adults
@@ -48,7 +48,7 @@ Model explanatory power: R² ≈ 0.28
 Interpretation:
 Higher income and education are protective factors, while smoking nearly doubles the odds of poor oral health outcomes.
 
-# Public Health Implications
+* Public Health Implications *
 Findings reinforce that social and behavioral determinants significantly influence oral health disparities.
 Policy relevance includes:
 Expanding preventive dental coverage

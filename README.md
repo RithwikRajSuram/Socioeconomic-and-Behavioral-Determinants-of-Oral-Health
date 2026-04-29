@@ -2,6 +2,7 @@
 
 Project Overview :
 This capstone project examines how socioeconomic and behavioral factors influence oral health disparities among U.S. adults using nationally representative data from the National Health and Nutrition Examination Survey (NHANES) 2013–2018.
+
 The study quantifies the independent impact of income, education, and smoking on:
 Untreated dental caries (binary outcome)
 Number of missing teeth (count outcome)
@@ -10,6 +11,7 @@ Research Objective :
 To evaluate the association between socioeconomic status and oral health outcomes while adjusting for demographic and insurance-related confounders.
 
 Data Source
+
 Dataset: NHANES 2013–2018
 Sample Size: ~25,000 U.S. adults (≥18 years)
 Three survey cycles merged using participant identifier (SEQN)
@@ -17,6 +19,7 @@ Sampling weights applied according to NCHS analytic guidelines
 Official source: CDC National Center for Health Statistics
 
 Methodology
+
 Data Preparation :
 * Harmonized variables across three NHANES cycles
 * Recoded categorical variables for consistency
@@ -24,6 +27,7 @@ Data Preparation :
 * Handled missing values via listwise deletion (<5% missingness)
 
 Statistical Analysis
+
 Descriptive statistics :
 * χ² tests (categorical comparisons)
 * t-tests (continuous comparisons)
@@ -32,6 +36,7 @@ Descriptive statistics :
 * Adjusted for: Age, sex, Race/ethnicity, Dental insurance
 
 Key Findings
+
 Descriptive Results :
 * Untreated caries prevalence:
 * 34% among low-income adults
@@ -45,11 +50,13 @@ Regression Results :
 * Current smoker	1.95 (1.60–2.38)	< 0.001
 
 Model explanatory power: R² ≈ 0.28
+
 Interpretation:
 Higher income and education are protective factors, while smoking nearly doubles the odds of poor oral health outcomes.
 
-Public Health Implications
+Public Health Implications :
 Findings reinforce that social and behavioral determinants significantly influence oral health disparities.
+
 Policy relevance includes:
 * Expanding preventive dental coverage
 * Integrating smoking cessation into community health programs
